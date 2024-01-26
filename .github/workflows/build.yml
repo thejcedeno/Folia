@@ -28,3 +28,8 @@ jobs:
         run: ./gradlew applyPatches
       - name: Build
         run: ./gradlew build
+      # Upload artifacts
+      - uses: actions/upload-artifact@v2
+        with:
+          name: monad-uhc-jdk-17
+          path: build/libs
