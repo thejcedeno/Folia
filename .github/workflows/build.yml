@@ -31,6 +31,6 @@ jobs:
       # Upload artifacts
       - uses: actions/upload-artifact@v2
         with:
-          name: monad-uhc-jdk-17
-          path: build/libs
+          name: folia-jar
+          path: build/libs/folia-bundler-*.jar
           
