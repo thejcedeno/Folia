@@ -31,6 +31,6 @@ jobs:
       # Upload artifacts
       - uses: actions/upload-artifact@v2
         with:
-          name: folia-jar
-          path: build/libs/folia-bundler-*.jar
+          name: folia-paperclip-jar
+          path: build/libs/folia-paperclip-*.jar
           
